@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif ; ;
+
+}
+body
+{
+   background-image: url(bg.jpeg);
+   height:100vh;
+   
+}
+.logo
+{
+    width:90px;
+    margin: 20px 0 30px 30px;
+}
+.hero-image
+{
+    width:100vw;
+}
+h1
+{
+   position: absolute;
+   top: 320px;
+   left: 70px;
+   letter-spacing: 10px;
+   font-weight: bolder;
+}
+span
+{
+    color:  hsl(0, 36%, 70%);
+    font-weight: bold;
+}
+p
+{
+    color:hsl(0, 36%, 70%) ;
+    font-weight: light;
+    position: absolute;
+    top:430px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+     margin-left:30px; 
+    font-weight: bold;
+    
+}
+.input
+{ margin-left:30px; 
+    width:280px;
+    height: 40px;
+    position: absolute;
+    top:530px;
+    border-radius: 30px;
+    border:1px solid grey;
+    padding: 10px;
+    color:pink;
+}
+button
+{
+    background-color: rgb(241, 172, 184);
+    width:70px;
+    height: 40px;
+    border: inherit;
+    border-radius: 30px;
+    position: absolute;
+    top:530px;
+    left:240px;
+    color:white;
+}
+.lady
+{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .lady
+    {
+        display:block;
+        width:45%;
+        float:right;
+        height:100vh;
+    }
+    .hero-image
+         {
+            display: none;
+}
+.logo
+{
+     margin-left: 70px; 
+    
+    top:200px;
+    left:75px;
+} 
+ h1 {
+     font-size: 60px;
+    position: absolute;
+    top:120px;
+    left:75px; 
+    
+}
+p {
+    
+    font-size: 20px;
+    position: absolute;
+    top:320px;
+    left:60px;
+    text-align: left;
+    font-weight: lighter;
+}
+.input
+{
+    position: absolute;
+    top:420px;
+    left:55px;
+   
+    
+}
+button {
+    position: absolute;
+    top:420px;
+    left:320px;
+ 
+
+}
+.footer
+{
+   right:40px;
+    /* left:40px; */
+}
+
+}
